@@ -1,0 +1,44 @@
+/*styles.css*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+.controls {
+  display: flex;
+  font-size: 2rem;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+.controls label {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: palevioletred;
+  padding: 0.4rem;
+  margin: 0 1rem;
+}
+.controls input {
+  background: none;
+  border: none;
+  font-size: 2rem;
+
+  color: white;
+  margin: 0 1rem;
+  width: 60px;
+}
